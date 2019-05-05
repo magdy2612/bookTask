@@ -15,3 +15,4 @@ use Illuminate\Http\Request;
 
 
 Route::post('books', 'StudentsController@book');
+Route::post('rebooks', 'StudentsController@rebook');
